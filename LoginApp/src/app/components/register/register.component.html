@@ -1,0 +1,87 @@
+<p class="text-center fs-3" [ngClass]="isAccountCreated?'text-success pb-1':'text-danger pb-1'">{{dispalyMsg}}</p>
+<form [formGroup]="registerForm" (ngSubmit)="registerSumbit()" class="border p-3 rounded-3">
+    <div class="row g-0">
+        <div class="col text-center p-2 mb-3 bg-light">
+            <span class="fs-3">Register</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="username" class="form-label">User Name</label>
+            <input type="text" class="form-control" id="username" formControlName="userName">
+            <div class="form-text text-danger" *ngIf="UserName.errors?.['required'] && (UserName.dirty|| UserName.touched)">
+                User name is Required.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" formControlName="email">
+            <div class="form-text text-danger" *ngIf="Email.errors?.['required'] && (Email.dirty|| Email.touched)">
+                Email is Required.
+            </div>
+            <div class="form-text text-danger" *ngIf="Email.errors?.['email'] && (Email.dirty|| Email.touched)">
+                Email is invalid.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <label for="phonenumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phonenumber" formControlName="phoneNumber">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input [hidden]="userId==null?false:true" type="password" class="form-control" id="password"
+                formControlName="password">
+            <input [hidden]="userId==null?true:false" type="test" class="form-control" id="password"
+                formControlName="password">
+            <div class="form-text text-danger" *ngIf="Password.errors?.['required'] && (Email.dirty|| Email.touched)">
+                Password is Required.
+            </div>
+            <div class="form-text text-danger"
+                *ngIf="Password.errors?.['minlength'] ||Password.errors?.['maxlength'] && (Email.dirty|| Email.touched)">
+                Password should be at least 4 and at the max 6 is characters long.
+            </div>
+        </div>
+    </div>
+    <div class="row" [hidden]="userId==null?false:true">
+        <div class="col mb-3">
+            <label for="repeatpassword" class="form-label">Repeat Password</label>
+            <input type="password" class="form-control" id="repeatpassword" formControlName="repeatPassword">
+        </div>
+    </div>
+    <div class="row" [hidden]="userId==null?true:false">
+        <div class="col mb-3">
+            <label for="repeatpassword" class="form-label">Role</label>
+            <select formControlName="roleId">
+                <option value="">select</option>
+                <option *ngFor="let role of roles" [value]="role.id">
+                    {{role.name}}
+                </option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary" [disabled]="registerForm.invalid"> Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="row" [hidden]="userId==null?false:true">
+        <div class="col mt-3">
+            <span class="me-2">Already have account? </span> <a href="/login">Login</a>
+        </div>
+    </div>
+    <div class="row" [hidden]="userId==null?true:false">
+        <div class="col mt-3">
+            <a href="/home">Back to home</a>
+            &nbsp;
+            <a href="/registerList">Back to List</a>
+        </div>
+    </div>
+</form>

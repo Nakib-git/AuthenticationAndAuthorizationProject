@@ -1,0 +1,38 @@
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+    <div class="container">
+        <!-- <a href="/" >
+          
+            NybSys Test Project
+        </a> -->
+        <h4 style="color: white;">NybSys Test Project</h4>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="/home" class="nav-link active">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="loginUser.role=='Admin'">
+                    <a href="/registerList" class="nav-link active">
+                        User List
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="loginUser">
+                    <a href="" class="nav-link active">
+                        <span (click)="logout()">Log Out</span> 
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+    Welcome to <b>{{loginUser.userName}}</b> 
+</div>

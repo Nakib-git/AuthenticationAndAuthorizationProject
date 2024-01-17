@@ -1,0 +1,11 @@
+D:\Nakib\NewBRA\Register.Domain\bin\Debug\net8.0\Register.Domain.deps.json
+D:\Nakib\NewBRA\Register.Domain\bin\Debug\net8.0\Register.Domain.dll
+D:\Nakib\NewBRA\Register.Domain\bin\Debug\net8.0\Register.Domain.pdb
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\Register.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\Register.Domain.AssemblyInfoInputs.cache
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\Register.Domain.AssemblyInfo.cs
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\Register.Domain.csproj.CoreCompileInputs.cache
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\Register.Domain.dll
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\refint\Register.Domain.dll
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\Register.Domain.pdb
+D:\Nakib\NewBRA\Register.Domain\obj\Debug\net8.0\ref\Register.Domain.dll

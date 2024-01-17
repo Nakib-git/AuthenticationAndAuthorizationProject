@@ -1,0 +1,17 @@
+D:\Nakib\NewBRA\Register.Infrastructure\bin\Debug\net8.0\Register.Infrastructure.deps.json
+D:\Nakib\NewBRA\Register.Infrastructure\bin\Debug\net8.0\Register.Infrastructure.runtimeconfig.json
+D:\Nakib\NewBRA\Register.Infrastructure\bin\Debug\net8.0\Register.Infrastructure.dll
+D:\Nakib\NewBRA\Register.Infrastructure\bin\Debug\net8.0\Register.Infrastructure.pdb
+D:\Nakib\NewBRA\Register.Infrastructure\bin\Debug\net8.0\Register.Domain.dll
+D:\Nakib\NewBRA\Register.Infrastructure\bin\Debug\net8.0\Register.Domain.pdb
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.csproj.AssemblyReference.cache
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.AssemblyInfoInputs.cache
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.AssemblyInfo.cs
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.csproj.CopyComplete
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.dll
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\refint\Register.Infrastructure.dll
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.pdb
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\Register.Infrastructure.genruntimeconfig.cache
+D:\Nakib\NewBRA\Register.Infrastructure\obj\Debug\net8.0\ref\Register.Infrastructure.dll
