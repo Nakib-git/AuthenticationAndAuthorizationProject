@@ -32,7 +32,7 @@ HTTPS `https://github.com/Nakib-git/AuthenticationAndAuthorizationProject.git`
 **How to run Front-End**
 
 1. Open editor go to `src/app/services/auth.service`
-2. update your port `baseUrl: 'https://localhost:yourport/api/'`
+2. update your port `baseServerUrl: 'https://localhost:yourport/api/'`
 3. Install latest node and angular
 4. Now use `npm  install`
 5. Now use `ng serve`
