@@ -17,8 +17,7 @@
 
 # Project startup instruction
 clone this project and run below command in root directory of project. <br/>
-SSH `*` <br/>
-HTTPS `[*](https://github.com/Nakib-git/AuthenticationAndAuthorizationProject.git)`
+HTTPS `https://github.com/Nakib-git/AuthenticationAndAuthorizationProject.git`
 
 **How to run backend**
 
